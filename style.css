@@ -1,0 +1,60 @@
+body {
+
+    margin: 0;
+    padding-top: 100px;
+    font-family: small-caps;
+    text-align: center;
+    color: red;
+    opacity: 90%;
+    background-color: white
+}
+
+.img {
+    height: 250;
+    width: auto;
+    opacity: fixed;
+    position: relative;
+    border-radius: 50%;
+}
+
+.line {
+    height: 7px;
+    width: 75px;
+    background: aqua;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    z-index: 10;
+    font: small-caps;
+    position: inherit;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+
+}
+
+.tabs {
+    float: center;
+    display: inline;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    color: white
+}
+
+.tabs:hover {
+    font-size: 25px;
+    background-color: black;
+}
+
+body:hover {
+    color: aqua;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
